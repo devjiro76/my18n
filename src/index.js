@@ -1,5 +1,4 @@
 var app = document.body.querySelector("#app");
-
 var lang = localStorage.getItem('lang') || 'en-us';
 var dictionary = {};
 
@@ -43,12 +42,12 @@ function init(_lang) {
     })
     .then(function () {
       console.log('translator is loaded.');
-      return load('./assets/app.html');
+      return load('./template/app.html');
     })
     .then(function () {
       console.log('assets(css, js) are loading.');
-      load('./assets/app.css');
-      load('./assets/app.js');
+      load('./template/app.css');
+      load('./template/app.js');
     });
   
   

@@ -40,11 +40,10 @@ function render(html, option) {
       dom = tempdom;
     }
 
-    
     setTimeout(function () {
       app.append(dom);
       resolve();
-    }, 1);
+    }, 0);
   });
 }
 
@@ -68,8 +67,9 @@ function inject(content, ext, option) {
     }
 
     script.innerHTML = tranScript;
-    app.append(script);
-    
-    resolve();
+    setTimeout(function () {
+      app.append(script);
+      resolve();
+    }, 0);
   });
 }
