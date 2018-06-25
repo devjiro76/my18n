@@ -1,0 +1,13 @@
+{
+  "lang": "en-us",
+  "contents": {
+    "title1": "Hello World!",
+    "ul01": "I am a robot",
+    "msg01": "I am not a robot!",
+    "robot-append01": "This is a lie",
+    "red-back-append01": "I'm css",
+    "message02": "I'll Destroy all world!!!",
+    "help01": "Below 'message03' is not exist in dictionary.",
+    "help02": "So translate will failed and show original message."
+  }
+}
