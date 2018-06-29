@@ -1,13 +1,15 @@
 {
   "lang": "en-us",
   "contents": {
-    "title1": "Hello World!!",
+    "안녕세상": "Hello World!!",
     "ul01": "I am a robot",
     "msg01": "I am not a robot!",
     "robot-append01": "This is a lie",
     "red-back-append01": "I'm css",
     "message02": "I'll Destroy all world!!!",
     "help01": "Below 'message03' is not exist in dictionary.",
-    "help02": "So translate will failed and show original message."
+    "help02": "So translate will failed and show original message.",
+    "apitest02": "Don't do this anymore",
+    "저장할 수 없습니다": "I can't save"
   }
 }

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "webpack-dev-server --mode development --content-base ./src --watch-content-base --hot"
+    "dev": "webpack-dev-server --mode development --content-base ./src"
   },
   "devDependencies": {
     "webpack": "^4.12.1",
