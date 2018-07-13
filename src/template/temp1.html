@@ -1,0 +1,81 @@
+<div id="title">
+  <div
+    data-trans="true"
+    data-trans-id="저장할 수 없습니다"
+  >
+    저장 에러 메시지가 나올 것
+  </div>
+  <div>
+    <h1
+      data-trans="true"
+      data-trans-id="안녕세상"
+    >Hello World!!</h1>
+  </div>
+
+  <div class="wrap">
+    <h4>Change Lang</h4>
+    <button class="change-lang" data-lang="ko-kr">한국어</button>
+
+    <button
+      class="change-lang"
+      data-lang="en-us"
+    >English</button>
+  </div>
+  
+  <div class="wrap">
+    <h4>css psuedo (CSS Interpolation)</h4>
+    <ul>
+      <li
+        class="robot"
+        data-trans="true"
+        data-trans-id="ul01"
+      >I'm a robot</li>
+
+      <li>I don't like oil</li>
+    </ul>
+  </div>
+
+  <div class="wrap">
+    <h4>css psuedo (CSS DataAttribute)</h4>
+    <ul>
+      <li class="apple"
+        data-trans="true"
+        data-trans-psudo-after="{{msg01}}"
+      >I like apple</li>
+  
+      <li>I don't like oil</li>
+    </ul>
+  </div>
+
+
+  <div class="wrap">
+    <h4>Alert Script & get Dynamic Message from API</h4>
+    <button id="button1">Alert!</button>
+    <button id="button2">Get API Data</button>
+  </div>
+
+  <div class="wrap">
+    <h4>Dynamic Dom Element</h4>
+    <button id="addRow">add Row</button>
+
+    <ul id="addRowList"></ul>
+  </div>
+
+  <div class="red-back">
+    <div
+      data-trans="true"
+      data-trans-id="help01"
+    >this "message03" is not exist in dictionary.</div>
+
+    <h2
+      data-trans="true"
+      data-trans-id="message03"
+    >I'll Destroy Computer!!!</h2>
+
+    <div
+      data-trans="true"
+      data-trans-id="help02"
+    >So translate will failed and show original message.</div>
+  </div>
+  
+</div>
