@@ -1,6 +1,7 @@
 # translate
 
-HTML, JS, CSS 를 지원하는 다국어 번역 라이브러리
+HTML, JS, CSS 를 지원하는 다국어 번역 라이브러리  
+Demo: https://devjiro76.github.io/my18n/
 
 ## 기본 아이디어
 
