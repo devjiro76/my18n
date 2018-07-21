@@ -1,0 +1,39 @@
+body {
+  margin: 15px;
+  padding: 0;
+}
+
+div.wrap {
+  background-color: #89accc;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.robot::after {
+  font-style: italic;
+  color: #ccc;
+  content: " {{robot-append01}}"
+}
+
+.apple[data-trans='true']::after {
+  font-style: italic;
+  color: #ccc;
+  content: attr(data-trans-psudo-after);
+}
+
+.red-back {
+  background-color: #c7243f;
+  color: #fff;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+}
+
+.red-back > div::after {
+  content: " ({{red-back-append01}})"
+}
