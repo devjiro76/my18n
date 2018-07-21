@@ -16,7 +16,7 @@ langChange.forEach(function(node) {
 
 var apiButton = document.querySelector("#button2");
 apiButton.addEventListener("click", function(e) {
-  api.call('/testapi.js')
+  api.call('./testapi.js')
     .then(function(_res) {
       var res = JSON.parse(_res);
       var transRes = translateInterpolation(res.result);
@@ -28,7 +28,7 @@ apiButton.addEventListener("click", function(e) {
 var addRowButton = document.querySelector("#addRow");
 var addRowList = document.querySelector("#addRowList");
 addRowButton.addEventListener("click", function(e) {
-  api.call('/testapi2.js')
+  api.call('./testapi2.js')
     .then(function(_res) {
       var res = JSON.parse(_res);
       var data = res.result;
